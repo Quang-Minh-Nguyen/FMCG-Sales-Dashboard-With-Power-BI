@@ -72,8 +72,36 @@ When it comes to growth rate, "Sữa Uống" in both GT and MT channel show the 
 
 ![image](https://user-images.githubusercontent.com/118095331/219341040-613cf415-7a54-4f87-9ebf-15b1f35083e9.png)
 
+As we can see, the chart below demonstarted the top 10 provinces which has the highest sales value in first 6 months of of 2021. Among those, LANG SON had the highest growth rate with 11155.81% and the province having the lowest growth rate was HUNG YEN with -24.02%. 
 
+![image](https://user-images.githubusercontent.com/118095331/219347503-67a953f5-d72a-40a5-8024-22625fdf5290.png)
 
-**Analysis - Ad-hoc(1)**
+In the case of LANG SON, "VÁNG SỮA" was the product contributing the most to that increase.
 
-**Analysis - Ad-hoc(2)**
+![image](https://user-images.githubusercontent.com/118095331/219348770-cdd8ce5b-8282-4b8b-bfe7-e3a61a519d3a.png)
+
+In the case of HUNG YEN, "VÁNG SỮA" was ALSO the product contributing the most to that increase.
+
+![image](https://user-images.githubusercontent.com/118095331/219348960-1ab2d83a-26bc-498b-a36a-0ff5856ccbb3.png)
+
+**Analysis - Ad-hoc**
+**Question:**
+
+![image](https://user-images.githubusercontent.com/118095331/219349099-c7828e5c-5fe5-47d0-a276-990bef64a67c.png)
+
+When it comes to "VÁNG SỮA" products in MT channel 2021, top 6 provinces with the highest sales value are HANOI, TP HCM, HAI PHONG, HUNG YEN, DONG NAI, DAI DUONG and top 6 provinces with the highest growth rate are BINH DUONG, NGHE AN, DA NANG, THAI NGUYEN, BINH PHUONG, LANG SON. In this case, I was required to choose based on both sales value and growth rate and does not provide any addition information about the product, therefore, I assumed these two criteria are equally important. Ideally, the best options would be in the first quater in the scatter plot which has both high sales value and growth rate, however, it did not happen in case since there were no provinces had both these criteria. 
+
+![image](https://user-images.githubusercontent.com/118095331/219349203-e8fc3c6b-af31-455b-ab5a-20c9fe7f3ff7.png)
+
+Therefore, I decided to normalized the sales value and the growth rate into the range from 1 - 10 with 1 is the lowest and 10 the highest, then combine them into the final score for ranking. Here are the codes and the tables:
+```
+Sales value nor = ('DIM CITY'[Sales value] - MIN('DIM CITY'[Sales value]))/(MAX('DIM CITY'[Sales value]) - MIN('DIM CITY'[Sales value]))*(10-1) + 1
+```
+```
+%Growth nor = ('DIM CITY'[%Growth] - MIN('DIM CITY'[%Growth]))/(MAX('DIM CITY'[%Growth]) - MIN('DIM CITY'[%Growth]))*(10-1) + 1
+```
+![image](https://user-images.githubusercontent.com/118095331/219355192-d22d85e0-c811-434c-b696-e5a94531c1a1.png)
+
+Finally with the visualization, I can choose the top 6 most potential provinces are HANOI, THAI NGUYEN, TP HCM, BINH DUONG, BINH PHUOC and DONG NAI
+
+![image](https://user-images.githubusercontent.com/118095331/219356262-9d52ec22-299c-47fd-ac45-089e6edf969e.png)
