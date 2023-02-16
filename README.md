@@ -64,9 +64,14 @@ As observed, the largest sales value in the GT channel was contributed by DA NAN
 **Questions:**   
 ![image](https://user-images.githubusercontent.com/118095331/219334458-38cde146-66df-4ebc-9349-bd57a454177a.png)
 
+When it comes to growth rate, "Sữa Uống" in both GT and MT channel show the best growth rate with 25.87% and 29.88% respectively compared with other products. To elaborate further, within the GT channel, product 61098 exhibits the most substantial growth rate at 25.87%, whereas in the MT channel, the growth rate of product 61053 is exceedingly high, at more than 8745%.
 
+![3](https://user-images.githubusercontent.com/118095331/219336635-bca48608-03c4-4933-bf44-b4328b6b85cf.png)
 
-![image](https://user-images.githubusercontent.com/118095331/219333300-6b5baec8-8254-4a9d-b1e2-622eb6040e85.png)
+**Questions:**   
+
+![image](https://user-images.githubusercontent.com/118095331/219341040-613cf415-7a54-4f87-9ebf-15b1f35083e9.png)
+
 
 
 **Analysis - Ad-hoc(1)**
