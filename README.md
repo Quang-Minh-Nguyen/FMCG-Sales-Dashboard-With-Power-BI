@@ -56,6 +56,7 @@ Regarding sales value, the MT channel had the highest sales value of 3,431M, acc
 ![image](https://user-images.githubusercontent.com/118095331/219323070-89d4d2d3-a9b0-45c2-bc3c-99d42b768fa3.png)
 
 As observed, the largest sales value in the GT channel was contributed by DA NANG with 1,695 million, whereas HANOI was the biggest contributor to the MT channel with 1,877 million in sales value. The most notable highlight is that despite having a sales value of only 142 million, LANG SON had a growth rate of 11155%. This could be attributed to the fact that the city had very low sales in 2020, potentially only for testing purposes, and the actual sales of the brand in LANG SON began in 2021.
+
 ![image](https://user-images.githubusercontent.com/118095331/219332817-ba049688-e28b-4999-9d41-ff865aa1b586.png)
 
 **Analysis - Channel & Geography**  
@@ -66,7 +67,8 @@ As observed, the largest sales value in the GT channel was contributed by DA NAN
 
 
 ![image](https://user-images.githubusercontent.com/118095331/219333300-6b5baec8-8254-4a9d-b1e2-622eb6040e85.png)
-When it comes to growth rate 
+
+
 **Analysis - Ad-hoc(1)**
 
 **Analysis - Ad-hoc(2)**
